@@ -4,8 +4,6 @@ const router = express.Router();
 
 router.post("/", async (req, res) => {
 
-
-    console.log("entred !:::")
     try {
         const task = await new Task(req.body).save();
         res.send(task);

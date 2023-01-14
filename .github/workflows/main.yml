@@ -25,7 +25,7 @@ jobs:
         registry: docker.io
         username: ${{ secrets.DOCKER_HUB_USERNAME }}
         password: ${{ secrets.DOCKER_HUB_PASSWORD }}
-#    Notify all the team for the new version     
+#    Notify all the team for the new version of the application     
     - name: Send mail
       uses: juanformoso/action-send-mail@1
       with:

@@ -21,7 +21,7 @@ describe('Books', () => {
 /*
   * Test the /GET route
   */
-  describe('/GET book', () => {
+  describe('/GET All  tasks', () => {
       it('it should GET all the tasks', (done) => {
         chai.request(server)
             .get('/api/tasks/')

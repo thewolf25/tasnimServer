@@ -18,7 +18,7 @@ jobs:
         npm test
 #     build and deploy the new version of the image
     - name: Build and Push Docker Image
-      uses: mr-smithers-excellent/docker-build-push@v4
+      uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: momenas777/iowaves
         tags: server, latest
